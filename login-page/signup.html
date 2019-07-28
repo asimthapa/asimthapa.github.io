@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+    <meta chartset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form class="box" action="/submit.php" name="myForm" onsubmit="return validate()" method="POST">
+            <h1>Registration Form</h1>
+            <input class="inputs" type="text" name="fName" maxlength="15" size="1" placeholder="First Name">
+            <input class="inputs" type="text" name="lName" maxlength="15" size="15" placeholder="Last Name">
+            <input class="inputs" type="email" name="mail" placeholder="Email">
+            <input class="inputs" type="text" name="userName" maxlength="15" size="15" placeholder="Username">
+            <input class="inputs" type="password" name="password" maxlength="15" size="15" placeholder="Password">
+            <input class="inputs" type="password" name="passwordVerify" maxlength="15" size="15" placeholder="Retype Password">
+            <input class="submit" type="submit"  name="submit" value="Register">
+        </form>
+    </div>
+</body>
+<script src="scriptSignUp.js"></script>
+</htmL>
