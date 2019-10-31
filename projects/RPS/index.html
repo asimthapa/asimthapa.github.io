@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors game</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1> Rock Paper Scissors</h1>
+    </header>
+
+   <div class="score-board">
+       <div id="user-label" class="badge">user</div>
+       <div id="computer-label" class="badge">comp</div>
+       <span id="user-score">0</span>:<span id="comp-score">0</span>
+   </div> 
+
+   <div class="result">
+       <p> Rock beats Scissors, Scissors beat Paper, Paper beats Rock. Choose your weapon ⚔️.</p>
+   </div>
+
+   <div class="choices">
+       <div class="choice" id="r">
+           <img src="images/rock.png" title="rock" alt="rock">
+       </div>
+
+       <div class="choice" id="p">
+            <img src="images/paper.png" title="paper" alt="paper">
+        </div>
+
+        <div class="choice" id="s">
+                <img src="images/scissor.png" title="scissor" alt="scissor">
+            </div>
+   </div>
+
+   <p id="action-message"> Start your move...</p>
+   <script src="script.js"></script>
+</body>
+</html>
